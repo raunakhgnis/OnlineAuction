@@ -11,6 +11,9 @@
 	<groupId>com.example</groupId>
 	<artifactId>simpleauction</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<packaging>war</packaging>
+	
 	<name>simple-auction-backend</name>
 	<description>Simple auction backend</description>
 	<url/>
@@ -38,6 +41,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
